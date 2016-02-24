@@ -1,0 +1,14 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/EswaranP/Desktop/saltie/saltie1.0/www/js/app.js",
+        "C:/Users/ranjan/Desktop/saltie1.0/platforms/android/assets/www/lib/ionic/js/ionic.min.js",
+        "C:/Users/ranjan/Desktop/saltie1.0/plugins/org.apache.cordova.inappbrowser/tests/resources/inject.js",
+        "C:/Users/EswaranP/Desktop/saltie2.0/platforms/android/build/intermediates/assets/debug/www/lib/ionic/js/angular-ui/angular-ui-router.min.js",
+        "C:/Users/EswaranP/Desktop/saltie2.0/www/js/app.js",
+        "C:/Users/EswaranP/Desktop/saltie2.0/platforms/android/assets/www/lib/ionic/js/ionic.min.js",
+        "C:/Users/EswaranP/Desktop/saltie2.0/platforms/android/cordova/lib/device.js",
+        "C:/Users/EswaranP/Desktop/saltie3.0/www/js/controllers.js",
+        "C:/Users/EswaranP/Desktop/SaltieLifestyle/www/js/controllers.js",
+        "C:/Users/ZApcom5/Desktop/Saltie App/New/jarret/SaltieLifestyle2/www/js/controllers.js"
+    ]
+}

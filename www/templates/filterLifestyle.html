@@ -1,0 +1,33 @@
+<ion-modal-view>
+    <ion-header-bar align-title="left" class="headerBar">
+        <button  class="button  button-icon button-clear ion-ios-arrow-thin-left backFilter colorFilter" id="cls20" ng-click="filterLifestyle.hide();back()" >
+        </button>
+        <h1 class="title headerFont" id="title">Lifestyle Selection</h1>
+        <button  class="button  button-clear  resetbutton colorFilter" >
+        </button>
+    </ion-header-bar>
+    <ion-content scroll="false" ng-controller="SliderCtrl">
+        <a type="item-text-wrap" on-swipe-left="swipeLeft()" href="" style="margin-top: 2px;background-image:url('{{img.cur}}');" class="lifestyleSlider">
+        </a>
+        
+            <div id="leftArrow" ng-hide="endOfSlides"> 
+				<img id="likeButton"  ng-click="likeImg(img.cur)" ng-src="./img/lifestyle/like.svg" style="width: 50%">
+            </div>
+      
+        
+            <div id="rightArrow" ng-hide="endOfSlides">
+				<img  class="img-Right"  ng-click="dislikeImg()" ng-src="./img/lifestyle/dislike.svg">
+            </div>
+        <button class="button ion-thumbsdown" >
+                </button>
+
+    </ion-content>
+	
+	 <ion-footer-bar style="border: none;">
+        <button class="button-block bookbt2 thin" id="readytobook" ng-disabled="endOfSlides" ng-click="showLikedImg()">
+           Submit
+        </button>
+
+    </ion-footer-bar>
+	
+</ion-modal-view>
