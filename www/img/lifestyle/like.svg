@@ -12,15 +12,15 @@
 	.st3{fill:#06618C;}
 ]]>
 
-@keyframes Layer_2 {
-  0%   {transform: translateX(0)}
-  25%  {transform: translateX(0px)}
-  75%  {transform: translateX(25px)}
-  100% {transform: translateX(0)}
+@-webkit-keyframes Layer_2 {
+  0%   {-webkit-transform: translateX(0)}
+  25%  {-webkit-transform: translateX(0px)}
+  75%  {-webkit-transform: translateX(25px)}
+  100% {-webkit-transform: translateX(0)}
 }
 
 #Layer_2 {
-  animation: Layer_2 1s linear infinite;
+  -webkit-animation: Layer_2 1s linear infinite;
 }
 </style>
 <g id="Layer_1" class="st2">

@@ -14,7 +14,6 @@
 }
 @-webkit-keyframes xAxis {
   50% {
-    animat
     -webkit-transform: translateX(-75%);
     transform: translateX(-75%);
   }
@@ -22,7 +21,6 @@
 
 @keyframes xAxis {
   50% {
-   
     -webkit-transform: translateX(-75%);
     transform: translateX(-75%);
   }
