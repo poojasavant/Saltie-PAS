@@ -2489,4 +2489,21 @@ color: rgb(176, 162, 131) !important;
 }
 
 
+.button_slider_instruction
+{
+    background-color: #005D69 !important;
+    font-size: 5vmin;
+    font-family: thin;
+    color: white;
+    width: 40vmin;
+    height: 10vmin;
+    border: none;
+}
 
+.text_slider_instruction
+{
+    color: white;
+    font-size: 7vmin;
+    font-family: roman;
+    line-height: 2;
+}

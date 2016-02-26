@@ -1551,15 +1551,15 @@ app.controller('filterController',function($scope, $location, $http, $rootScope,
 		 $ionicModal.fromTemplateUrl('templates/filterLifestyle.html', {
             scope: $scope
         }).then(function(modal) {
-            $scope.filterLifestyle = modal;
+            $rootScope.filterLifestyle = modal;
         })
 		 
 		$scope.openLifeSytle=function()
 		{
-			$scope.filterLifestyle.show();
+			$rootScope.filterLifestyle.show();
 		}
 		
-	$scope.back=function()
+	/*$scope.back=function()
 	{
 		
 		
@@ -1587,7 +1587,7 @@ app.controller('filterController',function($scope, $location, $http, $rootScope,
 
 
 		
-	}
+	}*/
 	/* ==========================================================================
   						Experience Type Functionality
    ========================================================================== */
